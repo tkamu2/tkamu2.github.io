@@ -1,0 +1,95 @@
+.header {
+/*  position: relative;*/
+  width: 1278px;
+  height: 403px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: -27px;
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-size: cover;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+.header h2 {
+  padding-left: 250px;
+  padding-top: 240px;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.header h1 {
+  padding-left: 250px;
+  font-size: 5em;
+  margin-top: 0;
+}
+
+.container {
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bekezdesalap {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 20px;
+  width: 794px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  line-height: 170%;
+}
+ 
+.bekezdesalap ul{
+  list-style-type: square;
+}
+
+.idezet {
+  width: 794px;
+  height: auto;
+  color: white;
+  background: grey;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.idezet::before {
+  content: '“';
+  font-size: 150px;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 0;
+}
+
+.foszoveg {
+  width: 794px;
+  
+}
+
+.alcim {
+  text-transform:uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  margin-top: 60px;
+  
+}
+
+.alalcim h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  margin-top: 60px;
+}
+
+.alalcim p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  margin-top: 60px;
+}
